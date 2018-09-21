@@ -1,10 +1,42 @@
+
 body{
-    background-color:#FECC66;
+    background-color:#ccf9f6;
+    color: #585858;
+	font-family: Raleway, sans-serif;
+	font-weight: 300;
 }
 
 li{
 	text-decoration: none;
-	display:inline;
-	background-color: white;
+	display:inline-block;
+	background-color: #ffffff;
+	color: #000000;
+	width: 20%;
+}
+
+img{
+	width: 30%;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	color: #383838;
+	font-weight: 400;
+	line-height: 1em;
+	margin: 0 0 1em 0;
+}
+
+p{
+	margin:0 0 3em 0;
+}
+
+a{
+	color: #00826c;
+	font-weight: 400;
+}
+
+a:hover{
 	color: black;
 }
+
+
