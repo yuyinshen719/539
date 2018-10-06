@@ -1,25 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html id = "base" lang="en">
 <head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="images/signature_vertical_U_white.png" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title >Blair Shen| Graphic Design</title>
+    <title >Blair Shen</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
+<header class = "header-container">
 
-<header>
-    <nav>
+    <div class = "header-logo"> 
+        <a href="index.html"><img alt="logo" src="imgs/logo.svg"></a>
+    </div>
+
+    <nav class="header-right">
         <ul>
-            <li><a href = "index.html">About Me</a></li>
-            <li><a href = "Graphic.html">Graphic Design</a></li>
-            <li><a href = "Projects.html">Projects</a></li>
-            <li><a href = "Hometown.html">Hometown</a></li>
-        </ul>
+        
+            <li class="header-item"><a href = "index.html" >About Me</a></li>
+            <li class="header-item"><a href = "Graphic.html" >Graphic Design</a></li>
+            <li class="header-item"><a href = "Projects.html" >Projects</a></li>
+            <li class="header-item"><a href = "Hometown.html" >Hometown</a></li>
+         </ul>
+        
     </nav>
+    
 </header>
+
 <main>
+    <div class="greeting">
     <h1>Graphic Design</h1>
     <h2>My graphic design works:</h2>
     <img src="imgs/GD_1.png" alt = "Graphic design work 1"/>
@@ -27,7 +37,17 @@
     <img src="imgs/GD_3.png" alt = "Graphic design work 3"/>
     <img src="imgs/GD_4.png" alt = "Graphic design work 4"/>
     <img src="imgs/GD_5.png" alt = "Graphic design work 5"/>
+</div>
 
-</main>
+</main> 
+<footer id="footer">
+                <ul class="icons">
+                    <li><a href="https://www.linkedin.com/in/yu-yin-shen/" class = "footer-icon"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                    <li><a href="mailto:yuyshen@umich.edu" class = "footer-icon"><i class="fas fa-envelope fa-2x"></i></a></li>
+                    <li><a href="tel:7348829862" class = "footer-icon"><i class="fas fa-phone-square fa-2x"></i></a></li>
+                </ul>
+                
+                    <p>&copy; Yu-Yin Shen. All rights reserved</p>
+            </footer>
 </body>
 </html>
