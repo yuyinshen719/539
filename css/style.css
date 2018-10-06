@@ -48,12 +48,6 @@ a:hover{
 	color: tomato;
 }
 
-/*body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}*/
 
 ul {
   padding: 0px;
@@ -65,8 +59,6 @@ li{
 
 }
 
-
-
 .roundphoto{
 	border-radius: 100%;
 }
@@ -77,10 +69,6 @@ li{
     text-align: left;
     margin:2em auto;
 }
-
-
-
-
 
 .photowrap{
 	width: 90%;
