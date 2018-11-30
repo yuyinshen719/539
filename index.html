@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="images/signature_vertical_U_white.png" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/lightbox.css">
     <title >Blair Shen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
 
 
-<header class = "header-container">
-
-    <div class = "header-logo"> 
-        <a href="index.html"><img alt="About page" src="imgs/logo.svg"></a>
+<header class="header">
+    <div class="header-logo">
+         <a href="index.html">
+            <img src="imgs/logo.svg" alt="logo"/>
+        </a>
     </div>
 
-    <nav class="header-right">
+    <nav class="header-nav">
         <ul>
             <li class="header-item"><a href = "graphic.html" >Graphic Design</a></li>
             <li class="header-item"><a href = "projects.html" >Projects</a></li>
@@ -38,26 +41,42 @@
         During my free time you can find me dancing, consuming some nerdy content online, and training my cat to do dog tricks.</p>
     </div>
     <div class = "photowrap">
-        <h2>Things I Enjoy:</h2>    
-            <div class="photo-grid">
-              <img src="imgs/Home_2.png" class="photo-item" alt = "interest 1"/>
-              <img src="./imgs/Home_3.png" class="photo-item" alt = "interest 2"/>
-              <img src="./imgs/Home_4.png" class="photo-item" alt = "interest 3"/>
-              <img src="./imgs/Home_5.png" class="photo-item" alt = "interest 4"/>
-              <img src="./imgs/Home_6.png" class="photo-item" alt = "interest 5"/>
-              <img src="./imgs/Home_7.png" class="photo-item" alt = "interest 6"/>
+        <h2>You can drag & drop the photos :) Click on photos to view in the original sizes.</h2>    
+            <div class="photo-grid grid">
+	        	<div class="item"><a href="./imgs/Home_2.png" data-lightbox="gallery" data-title="My interest 1"><img src="./imgs/Home_2_thumb.png" alt="Interest 1"></a></div>
+	        	<div class="item"><a href="./imgs/Home_3.png" data-lightbox="gallery" data-title="My interest 2"><img src="./imgs/Home_3_thumb.png" alt="Interest 2"></a></div>
+	        	<div class="item"><a href="./imgs/Home_4.png" data-lightbox="gallery" data-title="My interest 2"><img src="./imgs/Home_4_thumb.png" alt="Interest 3"></a></div>
+	        	<div class="item"><a href="./imgs/Home_5.png" data-lightbox="gallery" data-title="My interest 2"><img src="./imgs/Home_5_thumb.png" alt="Interest 4"></a></div>
+	        	<div class="item"><a href="./imgs/Home_6.png" data-lightbox="gallery" data-title="My interest 2"><img src="./imgs/Home_6_thumb.png" alt="Interest 5"></a></div>
+	        	<div class="item"><a href="./imgs/Home_7.png" data-lightbox="gallery" data-title="My interest 2"><img src="./imgs/Home_7_thumb.png" alt="Interest 6"></a></div>
+	        	<div class="item"><a href="./imgs/Home_8.png" data-lightbox="gallery" data-title="My interest 2"><img src="./imgs/Home_8_thumb.png" alt="Interest 7"></a></div>
+	        	<div class="item"><a href="./imgs/Home_9.png" data-lightbox="gallery" data-title="My interest 2"><img src="./imgs/Home_9_thumb.png" alt="Interest 8"></a></div>
+	        	<div class="item"><a href="./imgs/Home_10.png" data-lightbox="gallery" data-title="My interest 2"><img src="./imgs/Home_10_thumb.png" alt="Interest 9"></a></div>
+	        	<!--<a href="./imgs/Home_4.png" data-lightbox="gallery" data-title="My interest 3"><img src="./imgs/Home_4_thumb.png" alt="Interest 3"></a>
+	        	<a href="./imgs/Home_5.png" data-lightbox="gallery" data-title="My interest 4"><img src="./imgs/Home_5_thumb.png" alt="Interest 4"></a>
+	        	<a href="./imgs/Home_6.png" data-lightbox="gallery" data-title="My interest 5"><img src="./imgs/Home_6_thumb.png" alt="Interest 5"></a>
+	        	<a href="./imgs/Home_7.png" data-lightbox="gallery" data-title="My interest 6"><img src="./imgs/Home_7_thumb.png" alt="Interest 6"></a>
+	        	<a href="./imgs/Home_8.png" data-lightbox="gallery" data-title="My interest 7"><img src="./imgs/Home_8_thumb.png" alt="Interest 7"></a>
+	        	<a href="./imgs/Home_9.png" data-lightbox="gallery" data-title="My interest 8"><img src="./imgs/Home_9_thumb.png" alt="Interest 8"></a>
+	        	<a href="./imgs/Home_10.png" data-lightbox="gallery" data-title="My interest 9"><img src="./imgs/Home_10_thumb.png" alt="Interest 9"></a>-->
             </div>
     </div>
 
+
 </main>
-            <footer id="footer">
-                <ul class="icons">
-                    <li><a href="https://www.linkedin.com/in/yu-yin-shen/" class = "footer-icon" aria-label="Blair's LinkedIn"><i class="fab fa-linkedin fa-2x"></i>LinkedIn</a></li>
-                    <li><a href="https://www.instagram.com/yuyinshen/?hl=en" class = "footer-icon" aria-label="Blair's email"><i class="fas fa-envelope fa-2x"></i>E-mail</a></li>
-                    <li><a href="https://www.blairux.me/" class = "footer-icon" aria-label="Blair's phone"><i class="fas fa-phone-square fa-2x"></i>Phone</a></li>
-                </ul>
+            <footer class="footer">
+                <div class="icons">
+                    <a href="https://www.linkedin.com/in/yu-yin-shen/" class = "footer-icon" aria-label="Blair's LinkedIn"><i class="fab fa-linkedin fa-2x"></i>LinkedIn</a>
+                    <a href="https://www.instagram.com/yuyinshen/?hl=en" class = "footer-icon" aria-label="Blair's email"><i class="fas fa-envelope fa-2x"></i>E-mail</a>
+                    <a href="https://www.blairux.me/" class = "footer-icon" aria-label="Blair's phone"><i class="fas fa-phone-square fa-2x"></i>Phone</a>
+                </div>
                 
                     <p>&copy; Yu-Yin Shen. All rights reserved</p>
             </footer>
+            <script src="js/lightbox-plus-jquery.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.3.1/web-animations.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+			<script src="https://unpkg.com/muuri@0.7.1/dist/muuri.min.js"></script>
+			<script> var grid = new Muuri('.grid'); var grid = new Muuri('.grid', {dragEnabled: true});</script>
 </body>
 </html>
